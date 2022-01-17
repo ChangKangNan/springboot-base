@@ -182,4 +182,30 @@
         </plugins>
     </build>
 
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <properties>
+                <profileActive>dev</profileActive>
+                <seataServerAddress>127.0.0.1:8091</seataServerAddress>
+                <nacosServerAddress>127.0.0.1:8848</nacosServerAddress>
+                <nacosNamespace>ckn-dev</nacosNamespace>
+            </properties>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+        <profile>
+            <id>test</id>
+            <properties>
+                <profileActive>test</profileActive>
+                <seataServerAddress>127.0.0.1:8091</seataServerAddress>
+                <nacosServerAddress>127.0.0.1:8848</nacosServerAddress>
+                <nacosNamespace>ckn-test</nacosNamespace>
+            </properties>
+            <activation>
+                <activeByDefault>false</activeByDefault>
+            </activation>
+        </profile>
+    </profiles>
 </project>
