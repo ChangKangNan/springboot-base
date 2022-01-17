@@ -1,0 +1,17 @@
+#mysql
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+spring.datasource.url=jdbc:mysql://127.0.0.1:3306/test?useSSL=false&useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&serverTimezone=UTC
+spring.datasource.username=root
+spring.datasource.password=123456
+#dubbo
+dubbo.protocol.port=-1
+dubbo.protocol.name=dubbo
+dubbo.consumer.timeout=600000
+dubbo.provider.timeout=600000
+dubbo.register.timeout=600000
+#springboot-bussiness
+id=6
+t_op=14
+#bussiness
+tid=20
+#nacos

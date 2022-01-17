@@ -1,0 +1,1 @@
+INSERT INTO test.t_account (id, user_id, amount) VALUES (1, '1', 997120);
